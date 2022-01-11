@@ -43,7 +43,7 @@ Une fois le Dockerfile crée, Buildez le et lancer un container test permettant 
 
 Une fois le test terminé, supprimez ce container test, testez les vulnérabilités de votre image à l'aide de l'outil `snyk`. Une fois terminé, poussez votre image sur votre registre Docker hub. 
 
-## **3) Partie 1 : Déploiement des différentes applications dans un cluster Kubernetes.** 
+## **3- Déploiement des différentes applications dans un cluster Kubernetes.** 
 
 ### **a. Architecture** 
 
@@ -87,7 +87,7 @@ Notez également que l’ensemble de ces ressources devront être crées dans un
 **NB** : Etant donné que vos manifests pourront être publics (pousser vers un repo Git ), bien vouloir prendre les mesures nécessaires afin d’utiliser les ressources adéquates permettant de cacher vos informations sensibles. 
 
 
-## **3- : Mise en place d'un pipeline CI/CD à l'aide de JENKINS et de ANSIBLE.** 
+## **4- Mise en place d'un pipeline CI/CD à l'aide de JENKINS et de ANSIBLE.** 
 L'objectif de ICGROUP est en effet de mettre sur pied un pipeline CI/CD permettant l'intégration et le déploiement en continu de cette solution sur leurs différentes machines en environnement de test, puis de production  ( serveurs hébergés soit en On Premises soit dans le cloud AWS)
 
 ### **a. Pipeline Stages** 
@@ -129,26 +129,26 @@ Mettez sur pied votre pipeline CI/CD à l'aide de Jenkins qui permettra de dépl
 Lancez l’exécution de votre pipeline manuellement pour une première fois, ensuite automatiquement après modification de votre fichier releases.txt (version : 1.1). Vérifiez que toutes les applis sont déployées et fonctionnent correctement. 
 
 
-## 4- Rapports
+## 5- Rapports
 
 A la fin du projet vous devez nous fournir :
 - Une documentation de votre travail avec des captures d'écran
 - Un Powerpoint pour présenter votre travail au public
 - Toutes vos sources via un référentiel GitHub bien documenté
 
-## 5- Have Fun
+## 6- Have Fun
 
 N'hésitez pas à ajouter des étapes supplémentaires, des outils supplémentaires pour rendre votre pipeline plus puissant (analyse de code, etc.)
 Nous voulons que vous vous amusiez dans ce projet et exploriez les nouvelles possibilités offertes par le monde devops
 
-## 6- Author
+## 7- Author
 Ce projet a été créé par Frazer SADO, merci de ne pas le partager, le dupliquer...
 Pour nous contacter : sadofrazer@yahoo.fr
 
 LAST THING ...
 ![good luck](https://user-images.githubusercontent.com/18481009/84582398-cad38100-adeb-11ea-95e3-2a9d4c0d5437.gif)
 
- ## **7- ANNEXE** 
+ ## **8- ANNEXE** 
 
 Ci-dessous un exemple de description des qualifications souhaitées pour un poste de Devops 
 
