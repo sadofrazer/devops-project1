@@ -1,6 +1,6 @@
 ﻿# PROJET FINAL DEVOPS. 
 
-## **1) Introduction**
+## **1- Introduction**
 
 La société **IC GROUP** dans laquelle vous travaillez en tant qu’ingénieur Devops souhaite mettre sur pied un site web vitrine devant permettre d’accéder à ses 02 applications phares qui sont :  
 
@@ -31,7 +31,7 @@ Ci-dessous un aperçu du site vitrine attendu.
 **NB :** L’image** créée devra permettre de lancer un container permettant d’héberger ce site web et ayant les liens adéquats permettant d’accéder à nos applications internes 
 
 
-## **2) Conteneurisation de l’application web.** 
+## **2- Conteneurisation de l’application web.** 
 
 Il s’agit en effet d’une application web python utilisant le module Flask. L'image de base que nnous vous recommandons afin de conteneuriser cette application est :  `python:3.6-alpine`
 
@@ -87,7 +87,7 @@ Notez également que l’ensemble de ces ressources devront être crées dans un
 **NB** : Etant donné que vos manifests pourront être publics (pousser vers un repo Git ), bien vouloir prendre les mesures nécessaires afin d’utiliser les ressources adéquates permettant de cacher vos informations sensibles. 
 
 
-## **3) Partie 2 : Mise en place d'un pipeline CI/CD à l'aide de JENKINS et de ANSIBLE.** 
+## **3- : Mise en place d'un pipeline CI/CD à l'aide de JENKINS et de ANSIBLE.** 
 L'objectif de ICGROUP est en effet de mettre sur pied un pipeline CI/CD permettant l'intégration et le déploiement en continu de cette solution sur leurs différentes machines en environnement de test, puis de production  ( serveurs hébergés soit en On Premises soit dans le cloud AWS)
 
 ### **a. Pipeline Stages** 
